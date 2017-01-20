@@ -1,4 +1,4 @@
-## Introduction to Spark (Python beginner's guide to Python):
+## Introduction to Spark (Beginner's guide to Spark and PySpark):
 
 As a beginner, I was taught to use Python which is most likely for everybody else. With that, I got hooked onto python and it's various libraries or rather started using python libraries instead of shifting to another language. I use *numpy, scipy* and *Scikit-Learn* for basic ML algorithms and *Keras* framework with backend *theano*. My major interests lie in Neural Networks and NLP, essentially as of now towards the implementation and practical applications but I want to extend further into theory behind.
 
