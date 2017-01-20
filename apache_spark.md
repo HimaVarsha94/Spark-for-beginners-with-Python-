@@ -31,7 +31,7 @@ It is external service which launches application oSpark contains a default mana
 ### Architecture during run-time:
 The driver node converts the user program into transformations and actions. This is converted into Directed Acyclic Graph (DAG). It also performs optimization at this stage like pipeline changes and converts logical graph into physical execution plan. Then it creates tasks which are bundled to be send to cluster. Now driver talks to cluster manager and creates worker nodes on behalf of the driver. Now when execution starts in worker nodes and driver program will monitor the set of executors which run. User program might cache data based on the program and the driver tracks the location of cached data to schedule future tasks.
 
-![Run-time Architecture](/Users/himavarsha/Desktop/HimaVarsha94.github.io/pages/run_time_spark.png)
+![Run-time Architecture](https://github.com/HimaVarsha94/Spark-for-beginners-with-Python-/blob/master/run_time_spark.png)
 ### Reasons I think Spark DataFrame is awesome:
 ##### DataFrame:
 It is a distributed collection of data into columns similar to Pandas. It being similar to Pandas helps as one can use similar or same syntax.
@@ -64,7 +64,7 @@ I surfed and found PySpark - Python API for Spark. Spark is a distributed comput
 
 PySpark helps data scientists interface with Resilient Distributed Datasets (RDD) in apache spark and python.
 
-Follow this [useful guide](/Users/himavarsha/Desktop/HimaVarsha94.github.io/pages/PySpark installation guide for MacOS users.md) for installation of PySpark on Mac Systems. This is for ubuntu users but since I use iOS environment, I made changes accordingly and you can find the complete information here.
+Follow this [useful guide](https://github.com/HimaVarsha94/Spark-for-beginners-with-Python-/blob/master/PySpark installation guide for MacOS users.md) for installation of PySpark on Mac Systems. This is for ubuntu users but since I use iOS environment, I made changes accordingly and you can find the complete information here.
 
 In Spark, there is a master node and worker nodes. The master nodes gives instructions to the worker nodes which contain executors.
 #### Lazy execution of Spark:
